@@ -29,7 +29,6 @@ public class ApplePayGooglePay extends CordovaPlugin {
 
     private JSONArray allowedCardAuthMethods = new JSONArray(
             Arrays.asList(
-                    "CRYPTOGRAM_3DS",
                     "PAN_ONLY"
             )
     );
